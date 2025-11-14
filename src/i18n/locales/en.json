@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "home": "Home",
+    "create": "Create Post",
+    "createShort": "Create"
+  },
+  "hero": {
+    "title": "Luxe Blog",
+    "subtitle": "Explore infinite possibilities of technology, share wonderful moments of life",
+    "searchPlaceholder": "Search articles, tags..."
+  },
+  "post": {
+    "notFound": "Post Not Found",
+    "backToHome": "Back to Home",
+    "author": "Author",
+    "edit": "Edit",
+    "delete": "Delete",
+    "deleteConfirm": "Are you sure you want to delete this article?",
+    "deleteDescription": "This action cannot be undone. The article will be permanently deleted.",
+    "cancel": "Cancel",
+    "confirm": "Confirm Delete",
+    "deleteSuccess": "Delete Successful",
+    "deleteSuccessDesc": "Article has been deleted",
+    "readMore": "Read More",
+    "views": "views",
+    "category": "Category"
+  },
+  "create": {
+    "title": "Create New Post",
+    "editTitle": "Edit Post",
+    "titleLabel": "Title",
+    "titlePlaceholder": "Enter article title",
+    "excerptLabel": "Excerpt",
+    "excerptPlaceholder": "Enter article excerpt (100-200 words)",
+    "contentLabel": "Content",
+    "contentPlaceholder": "Enter article content...",
+    "authorLabel": "Author",
+    "authorPlaceholder": "Enter author name",
+    "readTimeLabel": "Read Time",
+    "readTimePlaceholder": "e.g.: 5 minutes",
+    "tagsLabel": "Tags",
+    "tagsPlaceholder": "Separate tags with commas, e.g.: Technology, React, Frontend",
+    "categoryLabel": "Category",
+    "categoryPlaceholder": "Select or enter category",
+    "coverImageLabel": "Cover Image",
+    "coverImagePlaceholder": "Enter image URL (optional)",
+    "required": "Required",
+    "save": "Save",
+    "publish": "Publish Post",
+    "error": "Error",
+    "fillAllFields": "Please fill in all required fields",
+    "updateSuccess": "Update Successful",
+    "updateSuccessDesc": "Article has been updated",
+    "createSuccess": "Create Successful",
+    "createSuccessDesc": "Article has been published"
+  },
+  "filter": {
+    "all": "All",
+    "noResults": "No matching articles found",
+    "noPosts": "No posts yet"
+  },
+  "categories": {
+    "technology": "Technology",
+    "life": "Life",
+    "travel": "Travel",
+    "food": "Food",
+    "design": "Design",
+    "other": "Other"
+  }
+}

@@ -11,6 +11,8 @@ export interface BlogPost {
   readTime: string;
   tags: string[];
   coverImage?: string;
+  category?: string;
+  views?: number;
 }
 
 interface BlogStore {
@@ -59,6 +61,8 @@ export const useBlogStore = create<BlogStore>()(
           date: new Date().toISOString(),
           readTime: '3 分钟',
           tags: ['欢迎', '介绍', '开始'],
+          category: 'technology',
+          views: 128,
         },
       ],
       addPost: (post) =>
