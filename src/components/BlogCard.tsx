@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-import { Calendar, Clock, Tag } from 'lucide-react';
+import { Calendar, Clock, Tag, Eye } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import { BlogPost } from '@/hooks/useBlogStore';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -9,9 +10,11 @@ interface BlogCardProps {
 }
 
 export const BlogCard = ({ post }: BlogCardProps) => {
+  const { t } = useTranslation();
+
   return (
     <Link to={`/post/${post.id}`} className="block group">
-      <Card className="glass-card overflow-hidden h-full transition-all duration-300 group-hover:scale-[1.02] group-hover:shadow-2xl border-2 group-hover:border-primary/50">
+      <Card className="glass-card overflow-hidden h-full transition-all duration-500 group-hover:scale-[1.03] group-hover:shadow-2xl border-2 group-hover:border-primary/50 hover-lift animate-fade-in">
         {post.coverImage && (
           <div className="relative h-48 overflow-hidden">
             <img
@@ -45,12 +48,18 @@ export const BlogCard = ({ post }: BlogCardProps) => {
           <div className="flex items-center gap-4 text-sm text-muted-foreground">
             <div className="flex items-center gap-1">
               <Calendar className="h-4 w-4" />
-              <span>{new Date(post.date).toLocaleDateString('zh-CN')}</span>
+              <span>{new Date(post.date).toLocaleDateString()}</span>
             </div>
             <div className="flex items-center gap-1">
               <Clock className="h-4 w-4" />
               <span>{post.readTime}</span>
             </div>
+            {post.views !== undefined && (
+              <div className="flex items-center gap-1">
+                <Eye className="h-4 w-4" />
+                <span>{post.views} {t('post.views')}</span>
+              </div>
+            )}
           </div>
         </CardContent>
       </Card>

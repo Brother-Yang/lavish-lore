@@ -2,7 +2,14 @@ import type { Config } from "tailwindcss";
 
 export default {
   darkMode: ["class"],
-  content: ["./pages/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./app/**/*.{ts,tsx}", "./src/**/*.{ts,tsx}"],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  safelist: [
+    'animate-fade-in',
+    'animate-slide-up',
+    'animate-bounce-in',
+    'animate-shimmer',
+    'hover-lift',
+  ],
   prefix: "",
   theme: {
     container: {
