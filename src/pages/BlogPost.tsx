@@ -5,6 +5,10 @@ import { useBlogStore } from '@/hooks/useBlogStore';
 import { Navbar } from '@/components/Navbar';
 import { ReadingProgress } from '@/components/ReadingProgress';
 import { AnimatedSection } from '@/components/AnimatedSection';
+import { SocialShare } from '@/components/SocialShare';
+import { RelatedPosts } from '@/components/RelatedPosts';
+import { CommentSection } from '@/components/CommentSection';
+import { SubscribeForm } from '@/components/SubscribeForm';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { useToast } from '@/hooks/use-toast';
@@ -190,8 +194,24 @@ const BlogPost = () => {
                 );
               })}
             </div>
+
+            {/* Social Share */}
+            <SocialShare title={post.title} />
           </div>
         </AnimatedSection>
+
+        {/* Related Posts */}
+        <RelatedPosts 
+          currentPostId={post.id} 
+          currentTags={post.tags}
+          currentCategory={post.category}
+        />
+
+        {/* Comment Section */}
+        <CommentSection postId={post.id} />
+
+        {/* Subscribe Form */}
+        <SubscribeForm />
       </article>
     </div>
   );

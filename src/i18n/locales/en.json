@@ -73,5 +73,43 @@
     "food": "Food",
     "design": "Design",
     "other": "Other"
+  },
+  "comments": {
+    "title": "Comments",
+    "namePlaceholder": "Enter your name",
+    "commentPlaceholder": "Write your comment...",
+    "submit": "Post Comment",
+    "reply": "Reply",
+    "replyingTo": "Replying to",
+    "cancel": "Cancel",
+    "error": "Error",
+    "fillAllFields": "Please fill in all fields",
+    "success": "Comment Posted",
+    "successDesc": "Your comment has been published"
+  },
+  "related": {
+    "title": "Related Articles"
+  },
+  "share": {
+    "title": "Share Article",
+    "copyLink": "Copy Link",
+    "copySuccess": "Copied Successfully",
+    "copySuccessDesc": "Article link copied to clipboard",
+    "copyError": "Copy Failed",
+    "copyErrorDesc": "Unable to copy link, please copy manually"
+  },
+  "subscribe": {
+    "title": "Subscribe to Blog",
+    "description": "Subscribe to our blog to receive the latest articles and exciting content first.",
+    "emailPlaceholder": "Enter your email",
+    "subscribe": "Subscribe Now",
+    "subscribing": "Subscribing...",
+    "emailRequired": "Please enter email address",
+    "invalidEmail": "Please enter a valid email address",
+    "success": "Subscribed Successfully",
+    "successDesc": "Thank you for subscribing! You will receive updates on new articles.",
+    "error": "Subscription Failed",
+    "rssAvailable": "Also available via RSS",
+    "rssLink": "RSS Feed"
   }
 }
