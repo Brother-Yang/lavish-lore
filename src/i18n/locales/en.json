@@ -2,7 +2,8 @@
   "nav": {
     "home": "Home",
     "create": "Create Post",
-    "createShort": "Create"
+    "createShort": "Create",
+    "language": "Language"
   },
   "hero": {
     "title": "Luxe Blog",
@@ -23,7 +24,8 @@
     "deleteSuccessDesc": "Article has been deleted",
     "readMore": "Read More",
     "views": "views",
-    "category": "Category"
+    "category": "Category",
+    "minRead": "min read"
   },
   "create": {
     "title": "Create New Post",
@@ -55,11 +57,16 @@
     "createSuccessDesc": "Article has been published"
   },
   "filter": {
-    "all": "All",
     "noResults": "No matching articles found",
     "noPosts": "No posts yet"
   },
+  "error": {
+    "notFound": "Page Not Found",
+    "notFoundDesc": "Sorry, the page you're looking for doesn't exist",
+    "backHome": "Back to Home"
+  },
   "categories": {
+    "all": "All",
     "technology": "Technology",
     "life": "Life",
     "travel": "Travel",
