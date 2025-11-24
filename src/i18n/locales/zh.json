@@ -73,5 +73,43 @@
     "food": "美食",
     "design": "设计",
     "other": "其他"
+  },
+  "comments": {
+    "title": "评论",
+    "namePlaceholder": "请输入您的名字",
+    "commentPlaceholder": "写下您的评论...",
+    "submit": "发表评论",
+    "reply": "回复",
+    "replyingTo": "正在回复",
+    "cancel": "取消",
+    "error": "错误",
+    "fillAllFields": "请填写所有字段",
+    "success": "评论成功",
+    "successDesc": "您的评论已发表"
+  },
+  "related": {
+    "title": "相关文章"
+  },
+  "share": {
+    "title": "分享文章",
+    "copyLink": "复制链接",
+    "copySuccess": "复制成功",
+    "copySuccessDesc": "文章链接已复制到剪贴板",
+    "copyError": "复制失败",
+    "copyErrorDesc": "无法复制链接，请手动复制"
+  },
+  "subscribe": {
+    "title": "订阅博客",
+    "description": "订阅我们的博客，第一时间获取最新文章推送和精彩内容。",
+    "emailPlaceholder": "请输入您的邮箱",
+    "subscribe": "立即订阅",
+    "subscribing": "订阅中...",
+    "emailRequired": "请输入邮箱地址",
+    "invalidEmail": "请输入有效的邮箱地址",
+    "success": "订阅成功",
+    "successDesc": "感谢订阅！您将收到最新文章推送。",
+    "error": "订阅失败",
+    "rssAvailable": "也可以通过 RSS 订阅",
+    "rssLink": "RSS 订阅链接"
   }
 }
